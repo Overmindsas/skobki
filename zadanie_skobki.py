@@ -12,7 +12,6 @@ def valid(string):
                         finalsum+=1
                 else:
                     continue
-
             if finalsum == len(string)/2:
                 print(True)
             elif finalsum !=len(string)/2:
